@@ -7,7 +7,7 @@ import { experiences } from "@/data/experience";
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-28">
+    <section id="experience" className="py-20">
       <Container>
         <SectionHeading
           eyebrow="Experience"

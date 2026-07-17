@@ -10,7 +10,7 @@ import { contact } from "@/data/contact";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-28">
+    <section id="contact" className="py-20">
       <Container>
         <SectionHeading
           eyebrow="Contact"

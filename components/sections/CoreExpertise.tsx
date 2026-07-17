@@ -9,7 +9,7 @@ export default function CoreExpertise() {
   return (
     <section
       id="expertise"
-      className="py-28"
+      className="py-20"
     >
       <Container>
         <SectionHeading

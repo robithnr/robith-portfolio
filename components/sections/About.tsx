@@ -8,7 +8,7 @@ import { about } from "@/data/about";
 
 export default function About() {
   return (
-    <section id="about" className="py-28">
+    <section id="about" className="py-20">
       <Container>
         <SectionHeading
           eyebrow="About"

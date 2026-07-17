@@ -17,7 +17,7 @@ export default function SectionHeading({
       : "text-left";    
 
   return (
-    <header className={`mb-16 max-w-3xl ${alignment}`}>
+    <header className={`mb-12 max-w-3xl ${alignment}`}>
       {eyebrow && (
         <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-blue-400">
           {eyebrow}

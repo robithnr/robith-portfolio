@@ -11,7 +11,7 @@ import { projects } from "@/data/projects";
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-28">
+    <section id="projects" className="py-20">
       <Container>
         <SectionHeading
           eyebrow="Projects"
