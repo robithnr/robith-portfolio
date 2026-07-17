@@ -1,3 +1,5 @@
+import { CheckCircle2 } from "lucide-react";
+
 import Card from "@/components/ui/Card";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -37,25 +39,26 @@ export default function Experience() {
                 </p>
 
                 <p className="mt-6 leading-8 text-zinc-400">
-                  {experience.overview}
+                  {experience.summary}
                 </p>
               </div>
 
-              {/* Key Focus Areas */}
+              {/* Key Contributions */}
               <div className="mt-8 border-t border-zinc-800 pt-8">
                 <h4 className="mb-6 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
-                  Key Focus Areas
+                  Key Contributions
                 </h4>
 
-                <div className="space-y-6">
-                  {experience.work.map((item) => (
-                    <div key={item.title}>
-                      <h5 className="text-base font-semibold text-white">
-                        {item.title}
-                      </h5>
+                <div className="space-y-5">
+                  {experience.keyContributions.map((item) => (
+                    <div
+                      key={item}
+                      className="flex items-start gap-3"
+                    >
+                      <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-sky-400" />
 
-                      <p className="mt-2 text-sm leading-7 text-zinc-400">
-                        {item.description}
+                      <p className="text-sm leading-7 text-zinc-400">
+                        {item}
                       </p>
                     </div>
                   ))}
@@ -65,7 +68,7 @@ export default function Experience() {
               {/* Tech Stack */}
               <div className="mt-auto border-t border-zinc-800 pt-8">
                 <h4 className="mb-6 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
-                  Tools & Technologies  
+                  Tools & Technologies
                 </h4>
 
                 <div className="grid grid-cols-2 gap-3">
