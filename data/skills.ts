@@ -58,10 +58,6 @@ export const skillCategories: SkillCategory[] = [
         icon: "tableau",
       },
       {
-        name: "Pandas",
-        icon: "pandas",
-      },
-      {
         name: "Power BI",
         icon: "powerbi",
       },
